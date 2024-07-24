@@ -41,6 +41,11 @@ Examples: `latest`, `v1.0.15` See: https://github.com/sonatype-nexus-community/n
 
 A file to write the Nancy report to.
 
+Examples:
+
+- For CSV file, set `nancyCommand` to `-o csv` and `reportFile` to `report.csv`
+- For JSON file, set `nancyCommand` to `-o json-pretty` and `reportFile` to `report.json`
+
 ### `githubToken`
 
 Optional GitHub token. If not provided, no GitHub token will be used.
